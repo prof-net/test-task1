@@ -11,7 +11,7 @@ class GetDataServer {
     }
 
     getData = async () => {
-        const body = await this.getService('http://www.mocky.io/v2/5d944b9f2f00006b008ff619')
+        const body = await this.getService('https://www.mocky.io/v2/5d944b9f2f00006b008ff619')
         return body.data
     }
 }
