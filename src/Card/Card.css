@@ -1,0 +1,16 @@
+.Card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.Card h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.CardContent {
+    display: flex;
+}
