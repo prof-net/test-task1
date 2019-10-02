@@ -12,8 +12,8 @@ const Card = ({info, delCard}) => {
             <div className="CardContent" onClick={()=>delCard(id)}>
                 <img src={image} width="50" height="50" alt="img item1" />
                 <ul>
-                    <li>Количество: {quantity}</li>
-                    <li>Цена: {price}</li>
+                    <li>Количество: <strong>{quantity}</strong></li>
+                    <li>Цена: <strong>{price}</strong></li>
                 </ul>
             </div>
 

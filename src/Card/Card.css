@@ -6,6 +6,11 @@
     cursor: pointer;
 }
 
+.CardContent img {
+    margin-top: 10px;
+
+}
+
 .Card h2 {
     margin: 0px;
     padding: 0px;

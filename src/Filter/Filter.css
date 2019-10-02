@@ -4,4 +4,11 @@
     padding: 20px;
     margin: 20px;
     cursor: pointer;
+    background-color: #cccccc;
+}
+
+.Filter div {
+    padding: 10px;
+
+    border-bottom: 1px solid #ccc;
 }
